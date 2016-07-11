@@ -1,0 +1,9 @@
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-512 MB
+MapVCore-1
+ReducerVCore-1
+Replication-1
+InputDataVolume-5 GB
+--------

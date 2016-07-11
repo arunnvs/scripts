@@ -1,0 +1,171 @@
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-512 MB
+MapVCore-1
+ReducerVCore-1
+Replication-1
+InputDataVolume-5 GB
+--------
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-512 MB
+MapVCore-1
+ReducerVCore-1
+Replication-1
+InputDataVolume-10 GB
+--------
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-512 MB
+MapVCore-1
+ReducerVCore-1
+Replication-2
+InputDataVolume-5 GB
+--------
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-512 MB
+MapVCore-1
+ReducerVCore-1
+Replication-2
+InputDataVolume-10 GB
+--------
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-512 MB
+MapVCore-1
+ReducerVCore-2
+Replication-1
+InputDataVolume-5 GB
+--------
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-512 MB
+MapVCore-1
+ReducerVCore-2
+Replication-1
+InputDataVolume-10 GB
+--------
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-512 MB
+MapVCore-1
+ReducerVCore-2
+Replication-2
+InputDataVolume-5 GB
+--------
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-512 MB
+MapVCore-1
+ReducerVCore-2
+Replication-2
+InputDataVolume-10 GB
+--------
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-512 MB
+MapVCore-2
+ReducerVCore-1
+Replication-1
+InputDataVolume-5 GB
+--------
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-512 MB
+MapVCore-2
+ReducerVCore-1
+Replication-1
+InputDataVolume-10 GB
+--------
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-512 MB
+MapVCore-2
+ReducerVCore-1
+Replication-2
+InputDataVolume-5 GB
+--------
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-512 MB
+MapVCore-2
+ReducerVCore-1
+Replication-2
+InputDataVolume-10 GB
+--------
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-512 MB
+MapVCore-2
+ReducerVCore-2
+Replication-1
+InputDataVolume-5 GB
+--------
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-512 MB
+MapVCore-2
+ReducerVCore-2
+Replication-1
+InputDataVolume-10 GB
+--------
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-512 MB
+MapVCore-2
+ReducerVCore-2
+Replication-2
+InputDataVolume-5 GB
+--------
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-512 MB
+MapVCore-2
+ReducerVCore-2
+Replication-2
+InputDataVolume-10 GB
+--------
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-1024 MB
+MapVCore-1
+ReducerVCore-1
+Replication-1
+InputDataVolume-5 GB
+--------
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-1024 MB
+MapVCore-1
+ReducerVCore-1
+Replication-1
+InputDataVolume-10 GB
+--------
+Compression-true
+Block_size-32 MB
+ReducerMemory-512 MB
+MapMemory-1024 MB
+MapVCore-1
+ReducerVCore-1
+Replication-2
+InputDataVolume-5 GB
+--------

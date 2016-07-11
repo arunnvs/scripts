@@ -1,0 +1,108 @@
+OpenJDK 64-Bit Server VM warning: You have loaded library /usr/local/hadoop/lib/libhadoop.so.1.0.0 which might have disabled stack guard. The VM will try to fix the stack guard now.
+It's highly recommended that you fix the library with 'execstack -c <libfile>', or link it with '-z noexecstack'.
+
+Hadoop job: job_1432204593897_0003
+=====================================
+User: hduser1
+JobName: random-writer
+JobConf: hdfs://localhost:9000/tmp/hadoop-yarn/staging/hduser1/.staging/job_1432204593897_0003/job.xml
+Submitted At: 21-May-2015 17:57:19
+Launched At: 21-May-2015 17:57:24 (5sec)
+Finished At: 21-May-2015 18:01:41 (4mins, 16sec)
+Status: SUCCEEDED
+Counters: 
+
+|Group Name                    |Counter name                  |Map Value |Reduce Value|Total Value|
+---------------------------------------------------------------------------------------
+|File System Counters          |FILE: Number of bytes read    |0         |0         |0         
+|File System Counters          |FILE: Number of bytes written |789,630   |0         |789,630   
+|File System Counters          |FILE: Number of read operations|0         |0         |0         
+|File System Counters          |FILE: Number of large read operations|0         |0         |0         
+|File System Counters          |FILE: Number of write operations|0         |0         |0         
+|File System Counters          |HDFS: Number of bytes read    |1,230     |0         |1,230     
+|File System Counters          |HDFS: Number of bytes written |10,772,824,041|0         |10,772,824,041
+|File System Counters          |HDFS: Number of read operations|40        |0         |40        
+|File System Counters          |HDFS: Number of large read operations|0         |0         |0         
+|File System Counters          |HDFS: Number of write operations|20        |0         |20        
+|Job Counters                  |Killed map tasks              |0         |0         |2         
+|Job Counters                  |Launched map tasks            |0         |0         |12        
+|Job Counters                  |Other local map tasks         |0         |0         |12        
+|Job Counters                  |Total time spent by all maps in occupied slots (ms)|0         |0         |1,444,897 
+|Map-Reduce Framework          |Map input records             |10        |0         |10        
+|Map-Reduce Framework          |Map output records            |1,022,272 |0         |1,022,272 
+|Map-Reduce Framework          |Input split bytes             |1,230     |0         |1,230     
+|Map-Reduce Framework          |Spilled Records               |0         |0         |0         
+|Map-Reduce Framework          |Failed Shuffles               |0         |0         |0         
+|Map-Reduce Framework          |Merged Map outputs            |0         |0         |0         
+|Map-Reduce Framework          |GC time elapsed (ms)          |5,868     |0         |5,868     
+|Map-Reduce Framework          |CPU time spent (ms)           |241,080   |0         |241,080   
+|Map-Reduce Framework          |Physical memory (bytes) snapshot|1,365,311,488|0         |1,365,311,488
+|Map-Reduce Framework          |Virtual memory (bytes) snapshot|8,351,371,264|0         |8,351,371,264
+|Map-Reduce Framework          |Total committed heap usage (bytes)|736,624,640|0         |736,624,640
+|org.apache.hadoop.examples.RandomWriter$Counters|BYTES_WRITTEN                 |10,737,460,829|0         |10,737,460,829
+|org.apache.hadoop.examples.RandomWriter$Counters|RECORDS_WRITTEN               |1,022,272 |0         |1,022,272 
+|File Input Format Counters    |Bytes Read                    |0         |0         |0         
+|File Output Format Counters   |Bytes Written                 |10,772,824,041|0         |10,772,824,041
+|Job Counters                  |Killed map tasks              |0         |0         |2         
+|Job Counters                  |Launched map tasks            |0         |0         |12        
+|Job Counters                  |Other local map tasks         |0         |0         |12        
+|Job Counters                  |Total time spent by all maps in occupied slots (ms)|0         |0         |1,444,897 
+|File System Counters          |FILE: Number of bytes read    |0         |0         |0         
+|File System Counters          |FILE: Number of bytes written |789,630   |0         |789,630   
+|File System Counters          |FILE: Number of read operations|0         |0         |0         
+|File System Counters          |FILE: Number of large read operations|0         |0         |0         
+|File System Counters          |FILE: Number of write operations|0         |0         |0         
+|File System Counters          |HDFS: Number of bytes read    |1,230     |0         |1,230     
+|File System Counters          |HDFS: Number of bytes written |10,772,824,041|0         |10,772,824,041
+|File System Counters          |HDFS: Number of read operations|40        |0         |40        
+|File System Counters          |HDFS: Number of large read operations|0         |0         |0         
+|File System Counters          |HDFS: Number of write operations|20        |0         |20        
+|Map-Reduce Framework          |Map input records             |10        |0         |10        
+|Map-Reduce Framework          |Map output records            |1,022,272 |0         |1,022,272 
+|Map-Reduce Framework          |Input split bytes             |1,230     |0         |1,230     
+|Map-Reduce Framework          |Spilled Records               |0         |0         |0         
+|Map-Reduce Framework          |Failed Shuffles               |0         |0         |0         
+|Map-Reduce Framework          |Merged Map outputs            |0         |0         |0         
+|Map-Reduce Framework          |GC time elapsed (ms)          |5,868     |0         |5,868     
+|Map-Reduce Framework          |CPU time spent (ms)           |241,080   |0         |241,080   
+|Map-Reduce Framework          |Physical memory (bytes) snapshot|1,365,311,488|0         |1,365,311,488
+|Map-Reduce Framework          |Virtual memory (bytes) snapshot|8,351,371,264|0         |8,351,371,264
+|Map-Reduce Framework          |Total committed heap usage (bytes)|736,624,640|0         |736,624,640
+
+=====================================
+
+Task Summary
+============================
+Kind	Total	Successful	Failed	Killed	StartTime	FinishTime
+
+Setup	0	0		0	0		
+Map	12	10		0	2	21-May-2015 17:57:27	21-May-2015 18:01:41 (4mins, 13sec)
+Reduce	0	0		0	0		
+Cleanup	0	0		0	0		
+============================
+
+
+Analysis
+=========
+
+Time taken by best performing map task task_1432204593897_0003_m_000006: 1mins, 52sec
+Average time taken by map tasks: 2mins, 5sec
+Worse performing map tasks: 
+TaskId		Timetaken
+task_1432204593897_0003_m_000002 2mins, 14sec
+task_1432204593897_0003_m_000003 2mins, 13sec
+task_1432204593897_0003_m_000000 2mins, 12sec
+task_1432204593897_0003_m_000004 2mins, 12sec
+task_1432204593897_0003_m_000001 2mins, 12sec
+task_1432204593897_0003_m_000005 2mins, 11sec
+task_1432204593897_0003_m_000008 1mins, 56sec
+task_1432204593897_0003_m_000009 1mins, 54sec
+task_1432204593897_0003_m_000007 1mins, 53sec
+task_1432204593897_0003_m_000006 1mins, 52sec
+The last map task task_1432204593897_0003_m_000008 finished at (relative to the Job launch time): 21-May-2015 18:01:41 (4mins, 16sec)
+=========
+
+KILLED task attempts by nodes
+Hostname	FailedTasks
+===============================
+blrkec270683d	task_1432204593897_0003_m_000006, task_1432204593897_0003_m_000007, 

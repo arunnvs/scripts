@@ -1,0 +1,144 @@
+
+Hadoop job: job_1432632478272_0001
+=====================================
+User: hduser2
+JobName: QuasiMonteCarlo
+JobConf: hdfs://localhost:9000/mapred/hduser2/.staging/job_1432632478272_0001/job.xml
+Submitted At: 26-May-2015 14:59:49
+Launched At: 26-May-2015 14:59:55 (5sec)
+Finished At: 26-May-2015 15:00:09 (14sec)
+Status: SUCCEEDED
+Counters: 
+
+|Group Name                    |Counter name                  |Map Value |Reduce Value|Total Value|
+---------------------------------------------------------------------------------------
+|File System Counters          |FILE: Number of bytes read    |0         |40        |40        
+|File System Counters          |FILE: Number of bytes written |319,969   |106,617   |426,586   
+|File System Counters          |FILE: Number of read operations|0         |0         |0         
+|File System Counters          |FILE: Number of large read operations|0         |0         |0         
+|File System Counters          |FILE: Number of write operations|0         |0         |0         
+|File System Counters          |HDFS: Number of bytes read    |801       |0         |801       
+|File System Counters          |HDFS: Number of bytes written |0         |215       |215       
+|File System Counters          |HDFS: Number of read operations|12        |3         |15        
+|File System Counters          |HDFS: Number of large read operations|0         |0         |0         
+|File System Counters          |HDFS: Number of write operations|0         |3         |3         
+|Job Counters                  |Launched map tasks            |0         |0         |3         
+|Job Counters                  |Launched reduce tasks         |0         |0         |1         
+|Job Counters                  |Data-local map tasks          |0         |0         |3         
+|Job Counters                  |Total time spent by all maps in occupied slots (ms)|0         |0         |15,503    
+|Job Counters                  |Total time spent by all reduces in occupied slots (ms)|0         |0         |3,765     
+|Job Counters                  |Total time spent by all map tasks (ms)|0         |0         |15,503    
+|Job Counters                  |Total time spent by all reduce tasks (ms)|0         |0         |3,765     
+|Job Counters                  |Total vcore-seconds taken by all map tasks|0         |0         |31,006    
+|Job Counters                  |Total vcore-seconds taken by all reduce tasks|0         |0         |7,530     
+|Job Counters                  |Total megabyte-seconds taken by all map tasks|0         |0         |15,875,072
+|Job Counters                  |Total megabyte-seconds taken by all reduce tasks|0         |0         |3,855,360 
+|Map-Reduce Framework          |Map input records             |3         |0         |3         
+|Map-Reduce Framework          |Map output records            |6         |0         |6         
+|Map-Reduce Framework          |Map output bytes              |54        |0         |54        
+|Map-Reduce Framework          |Map output materialized bytes |73        |0         |73        
+|Map-Reduce Framework          |Input split bytes             |447       |0         |447       
+|Map-Reduce Framework          |Combine input records         |0         |0         |0         
+|Map-Reduce Framework          |Combine output records        |0         |0         |0         
+|Map-Reduce Framework          |Reduce input groups           |0         |2         |2         
+|Map-Reduce Framework          |Reduce shuffle bytes          |0         |73        |73        
+|Map-Reduce Framework          |Reduce input records          |0         |6         |6         
+|Map-Reduce Framework          |Reduce output records         |0         |0         |0         
+|Map-Reduce Framework          |Spilled Records               |6         |6         |12        
+|Map-Reduce Framework          |Shuffled Maps                 |0         |3         |3         
+|Map-Reduce Framework          |Failed Shuffles               |0         |0         |0         
+|Map-Reduce Framework          |Merged Map outputs            |0         |3         |3         
+|Map-Reduce Framework          |GC time elapsed (ms)          |126       |31        |157       
+|Map-Reduce Framework          |CPU time spent (ms)           |1,750     |1,220     |2,970     
+|Map-Reduce Framework          |Physical memory (bytes) snapshot|740,937,728|131,362,816|872,300,544
+|Map-Reduce Framework          |Virtual memory (bytes) snapshot|3,327,094,784|1,120,067,584|4,447,162,368
+|Map-Reduce Framework          |Total committed heap usage (bytes)|646,447,104|112,197,632|758,644,736
+|Shuffle Errors                |BAD_ID                        |0         |0         |0         
+|Shuffle Errors                |CONNECTION                    |0         |0         |0         
+|Shuffle Errors                |IO_ERROR                      |0         |0         |0         
+|Shuffle Errors                |WRONG_LENGTH                  |0         |0         |0         
+|Shuffle Errors                |WRONG_MAP                     |0         |0         |0         
+|Shuffle Errors                |WRONG_REDUCE                  |0         |0         |0         
+|File Input Format Counters    |Bytes Read                    |354       |0         |354       
+|File Output Format Counters   |Bytes Written                 |0         |97        |97        
+|Job Counters                  |Launched map tasks            |0         |0         |3         
+|Job Counters                  |Launched reduce tasks         |0         |0         |1         
+|Job Counters                  |Data-local map tasks          |0         |0         |3         
+|Job Counters                  |Total time spent by all maps in occupied slots (ms)|0         |0         |15,503    
+|Job Counters                  |Total time spent by all reduces in occupied slots (ms)|0         |0         |3,765     
+|Job Counters                  |Total time spent by all map tasks (ms)|0         |0         |15,503    
+|Job Counters                  |Total time spent by all reduce tasks (ms)|0         |0         |3,765     
+|Job Counters                  |Total vcore-seconds taken by all map tasks|0         |0         |31,006    
+|Job Counters                  |Total vcore-seconds taken by all reduce tasks|0         |0         |7,530     
+|Job Counters                  |Total megabyte-seconds taken by all map tasks|0         |0         |15,875,072
+|Job Counters                  |Total megabyte-seconds taken by all reduce tasks|0         |0         |3,855,360 
+|File System Counters          |FILE: Number of bytes read    |0         |40        |40        
+|File System Counters          |FILE: Number of bytes written |319,969   |106,617   |426,586   
+|File System Counters          |FILE: Number of read operations|0         |0         |0         
+|File System Counters          |FILE: Number of large read operations|0         |0         |0         
+|File System Counters          |FILE: Number of write operations|0         |0         |0         
+|File System Counters          |HDFS: Number of bytes read    |801       |0         |801       
+|File System Counters          |HDFS: Number of bytes written |0         |215       |215       
+|File System Counters          |HDFS: Number of read operations|12        |3         |15        
+|File System Counters          |HDFS: Number of large read operations|0         |0         |0         
+|File System Counters          |HDFS: Number of write operations|0         |3         |3         
+|Map-Reduce Framework          |Map input records             |3         |0         |3         
+|Map-Reduce Framework          |Map output records            |6         |0         |6         
+|Map-Reduce Framework          |Map output bytes              |54        |0         |54        
+|Map-Reduce Framework          |Map output materialized bytes |73        |0         |73        
+|Map-Reduce Framework          |Input split bytes             |447       |0         |447       
+|Map-Reduce Framework          |Combine input records         |0         |0         |0         
+|Map-Reduce Framework          |Combine output records        |0         |0         |0         
+|Map-Reduce Framework          |Reduce input groups           |0         |2         |2         
+|Map-Reduce Framework          |Reduce shuffle bytes          |0         |73        |73        
+|Map-Reduce Framework          |Reduce input records          |0         |6         |6         
+|Map-Reduce Framework          |Reduce output records         |0         |0         |0         
+|Map-Reduce Framework          |Spilled Records               |6         |6         |12        
+|Map-Reduce Framework          |Shuffled Maps                 |0         |3         |3         
+|Map-Reduce Framework          |Failed Shuffles               |0         |0         |0         
+|Map-Reduce Framework          |Merged Map outputs            |0         |3         |3         
+|Map-Reduce Framework          |GC time elapsed (ms)          |126       |31        |157       
+|Map-Reduce Framework          |CPU time spent (ms)           |1,750     |1,220     |2,970     
+|Map-Reduce Framework          |Physical memory (bytes) snapshot|740,937,728|131,362,816|872,300,544
+|Map-Reduce Framework          |Virtual memory (bytes) snapshot|3,327,094,784|1,120,067,584|4,447,162,368
+|Map-Reduce Framework          |Total committed heap usage (bytes)|646,447,104|112,197,632|758,644,736
+
+=====================================
+
+Task Summary
+============================
+Kind	Total	Successful	Failed	Killed	StartTime	FinishTime
+
+Setup	0	0		0	0		
+Map	3	3		0	0	26-May-2015 14:59:57	26-May-2015 15:00:03 (5sec)
+Reduce	1	1		0	0	26-May-2015 15:00:05	26-May-2015 15:00:09 (3sec)
+Cleanup	0	0		0	0		
+============================
+
+
+Analysis
+=========
+
+Time taken by best performing map task task_1432632478272_0001_m_000002: 5sec
+Average time taken by map tasks: 5sec
+Worse performing map tasks: 
+TaskId		Timetaken
+task_1432632478272_0001_m_000000 5sec
+task_1432632478272_0001_m_000001 5sec
+task_1432632478272_0001_m_000002 5sec
+The last map task task_1432632478272_0001_m_000000 finished at (relative to the Job launch time): 26-May-2015 15:00:03 (7sec)
+
+Time taken by best performing shuffle task task_1432632478272_0001_r_000000: 3sec
+Average time taken by shuffle tasks: 3sec
+Worse performing shuffle tasks: 
+TaskId		Timetaken
+task_1432632478272_0001_r_000000 3sec
+The last shuffle task task_1432632478272_0001_r_000000 finished at (relative to the Job launch time): 26-May-2015 15:00:09 (13sec)
+
+Time taken by best performing reduce task task_1432632478272_0001_r_000000: 0sec
+Average time taken by reduce tasks: 0sec
+Worse performing reduce tasks: 
+TaskId		Timetaken
+task_1432632478272_0001_r_000000 0sec
+The last reduce task task_1432632478272_0001_r_000000 finished at (relative to the Job launch time): 26-May-2015 15:00:09 (13sec)
+=========
